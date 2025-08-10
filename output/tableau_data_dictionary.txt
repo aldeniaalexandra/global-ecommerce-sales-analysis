@@ -1,0 +1,33 @@
+
+# Tableau Data Dictionary - E-commerce Sales Analysis
+
+## tableau_main_dataset.csv
+- InvoiceNo: Unique invoice identifier
+- StockCode: Product stock code
+- Description: Product description
+- Quantity: Number of items purchased
+- InvoiceDate: Date and time of transaction
+- UnitPrice: Price per unit
+- TotalAmount: Total transaction amount
+- Country: Customer country
+- Year/Month/Day/Hour: Date components
+- Weekday: Day of the week
+- CustomerType: Registered or Guest customer
+- Product_Category: Categorized product type
+- Quarter/YearMonth/YearQuarter: Time groupings
+
+## tableau_country_summary.csv
+- Country: Country name
+- Total_Revenue: Sum of all sales
+- Total_Quantity: Total items sold
+- Total_Orders: Number of unique orders
+- Unique_Customers: Number of unique customers
+- Avg_Order_Value: Average order amount
+- Revenue_Per_Customer: Revenue divided by customers
+
+## tableau_time_series.csv
+- InvoiceDate: Date of transactions
+- Daily_Revenue: Revenue per day
+- Daily_Quantity: Items sold per day
+- Daily_Orders: Orders per day
+- Daily_Customers: Active customers per day
